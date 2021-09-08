@@ -1,4 +1,4 @@
-### <img width="45" alt="about" src="https://raw.githubusercontent.com/dan-lugg/dan-lugg/main/assets/icon.svg"> About Me
+### `About Me`
 
 ```kotlin
 object Dan : Engineer, Person(
