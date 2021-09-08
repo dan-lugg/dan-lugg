@@ -1,16 +1,17 @@
-### Hi there 👋
+### <img width="45" alt="about" src="https://raw.github.com/dan-lugg/dan-lugg/master/assets/icon.png"> About Me
 
-<!--
-**dan-lugg/dan-lugg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```kotlin
+object Dan : Engineer, Person(
+    currentRole = "Software Engineering Manager",
+    currentArea = "Ontario, Canada",
+) {
+    override val technology = listOf(
+        "typescript",
+        "kotlin",
+        "csharp", 
+        "fsharp", 
+        "java", 
+        "php",
+    )
+}
+```
