@@ -12,8 +12,9 @@ object Dan : Engineer, Person(
 ) {
     override val technology = listOf(
         "typescript",
+        "golang",
         "kotlin",
-        "csharp", 
+        "csharp",
         "fsharp", 
         "java", 
         "php",
